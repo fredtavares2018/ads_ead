@@ -26,19 +26,6 @@
         <input type="text" id="telefone" class="form-control" placeholder="DIGITE UM TELEFONE">
         <input type="submit" value="onClick=cadastro() -> Enviar" onClick="cadastro()">
         <hr>
-
-        Código que recebe os dados do formulário<br><br>
-        
-            function cadastro() {<br>
-                let nome = document.getElementById('nome')<br>
-                let email = document.getElementById('email')<br>
-                let telefone = document.getElementById('telefone')<br>
-                let table = document.getElementById('tablePesquisa')<br>
-                let row = table.insertRow(0)<br>
-                row.innerHTML = "<td>" + nome.value + "</td>
-                <td>" + email.value + "</td>
-                <td>" + telefone.value + "</td>"<br>
-            }<br><br>
         
         <table class="table">
             <tr><th colspan="3">Listagem de cadastros</th></tr>
@@ -47,6 +34,27 @@
             <th>Telefone</th>
             <table id="tablePesquisa" class="table"></table>
         </table>
+
+        <br>
+        <hr>
+
+        Cadastro simples - Estudando ->function<-<br><br>
+
+            nome : type="text" id="nome" <br>
+            email : type="text" id="email" <br>
+            telefone : type="number" id="telefone" <br>
+            button : type="submit" value="onClick=cadastro() -> Enviar" onClick="cadastro()" <br><br>
+         
+        function cadastro() {<br>
+            let nome = document.getElementById('nome')<br>
+            let email = document.getElementById('email')<br>
+            let telefone = document.getElementById('telefone')<br>
+            let table = document.getElementById('tablePesquisa')<br>
+            let row = table.insertRow(0)<br>
+            row.innerHTML = "<td>" + nome.value + "</td>
+            <td>" + email.value + "</td>
+            <td>" + telefone.value + "</td>"<br>
+        }<br><br>
     </div>
 
 
