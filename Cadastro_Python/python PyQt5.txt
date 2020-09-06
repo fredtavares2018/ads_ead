@@ -8,6 +8,10 @@ Supondo que vc já tem o python instalado com pip:
 
 2º = pip install PyQt5-tools  pacote de ferramentas
 
+3 = pip install mysql-connector-python
+
+4 =  pyinstaller --windowed "arquivo python"
+
 
 Sugestão: 
 
