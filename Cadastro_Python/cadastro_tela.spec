@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['cadastro_tela.py'],
-             pathex=['C:\\xampp\\htdocs\\ads_ead\\cadastro_python'],
+             pathex=['D:\\xampp\\htdocs\\ads_ead\\Cadastro_Python'],
              binaries=[],
              datas=[],
              hiddenimports=[],
