@@ -17,9 +17,9 @@ def cadastro_clientes():
     # cad2 = cadastros.lineEdit_2.text()
     cad3 = cadastros.lineEdit_3.text()
 
-    print("Nome:",cad1)
+    #print("Nome:",cad1)
     # print("Email:",cad2)
-    print("Telefone",cad3)
+    #print("Telefone",cad3)
 
     # se for usar mysql, trocar ? por %
     cursor = banco.cursor()
