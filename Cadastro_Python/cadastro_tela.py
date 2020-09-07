@@ -37,7 +37,7 @@ def cadastro_clientes():
     
 
 app=QtWidgets.QApplication([])
-cadastros=uic.loadUi("Cadastro_Python/cadastros.ui")
+cadastros=uic.loadUi("Cadastro_Python/cadastro.ui")
 cadastros.pushButton.clicked.connect(cadastro_clientes)
 
 cadastros.show()
