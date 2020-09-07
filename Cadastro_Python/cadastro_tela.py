@@ -31,12 +31,24 @@ def cadastro_clientes():
     cadastros.lineEdit.setText("")
     cadastros.lineEdit_3.setText("")
 
-    cursor.execute("SELECT * FROM clientes")
-    print(cursor.fetchall())
+    # cursor.execute("SELECT * FROM clientes")
+    # print(cursor.fetchall())
 
 
 def listar_clientes():
     listagem.show()
+
+    cursor = banco.cursor()
+    cursor.execute("SELECT * FROM clientes")
+    receber_dados = cursor.fetchall()
+    # print(receber_dados)
+
+    listagem.tela_mostragem.setRowCount(len(receber_dados))
+    listagem.tela_mostragem.setColumnCount(2)
+
+    for i in range(0, len(receber_dados)):
+        for j in range(0, 2):
+            listagem.tela_mostragem.setItem(i,j,QtWidgets.QTableWidgetItem(str(receber_dados[i][j])))
 
 
 app=QtWidgets.QApplication([])

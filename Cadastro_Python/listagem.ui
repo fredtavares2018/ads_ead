@@ -35,6 +35,16 @@
      <string>Listagem do Banco de Dados</string>
     </property>
    </widget>
+   <widget class="QTableWidget" name="tela_mostragem">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>50</y>
+      <width>311</width>
+      <height>261</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
