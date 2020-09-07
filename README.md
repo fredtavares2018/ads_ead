@@ -35,7 +35,9 @@ Para conectar com banco de dados:
 2º pip install sqlite3   (para banco interno)
 
 Para vizualizar o banco de dados
+
 https://sqlitebrowser.org/dl/
+
 -------------------------------------------------------------------------------------------------
 
 Para gerar um executável:
