@@ -30,12 +30,11 @@ def cadastro_clientes():
     banco.commit()
 
     cursor.execute("SELECT * FROM clientes")
-
     print(cursor.fetchall())
     
 
 app=QtWidgets.QApplication([])
-cadastros=uic.loadUi("cadastro.ui")
+cadastros=uic.loadUi("Cadastro_Python/cadastros.ui")
 cadastros.pushButton.clicked.connect(cadastro_clientes)
 
 cadastros.show()
