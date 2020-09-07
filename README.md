@@ -31,8 +31,11 @@ e faça uma atalho do -> designer.exe <- para sua área de trabalho
 Para conectar com banco de dados:
 
 1º pip install mysql-connector-python   (para banco externo)
-1º pip install sqlite3   (para banco interno)
 
+2º pip install sqlite3   (para banco interno)
+
+Para vizualizar o banco de dados
+https://sqlitebrowser.org/dl/
 -------------------------------------------------------------------------------------------------
 
 Para gerar um executável:
