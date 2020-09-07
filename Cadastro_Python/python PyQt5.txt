@@ -12,6 +12,8 @@ Supondo que vc já tem o python instalado com pip:
 
 4 =  pyinstaller --windowed "arquivo python"
 
+Obs: 4 para funcionar copiar e colar o arquivo .ui na mesma pasta do .exe
+
 
 Sugestão: 
 
