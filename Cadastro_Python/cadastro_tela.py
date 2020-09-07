@@ -22,6 +22,7 @@ def cadastro_clientes():
     # print("Email:",cad2)
     print("Telefone",cad3)
 
+    # se for usar mysql, trocar ? por %
     cursor = banco.cursor()
     comando_SQL = "INSERT INTO clientes VALUES (?,?)"
     dados = (str(cad1),str(cad3))
