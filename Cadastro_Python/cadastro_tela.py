@@ -12,7 +12,6 @@ import sqlite3
 
 banco = sqlite3.connect('bc_clientes.db')
 
-
 def cadastro_clientes():
     cad1 = cadastros.lineEdit.text()
     # cad2 = cadastros.lineEdit_2.text()
@@ -34,11 +33,18 @@ def cadastro_clientes():
 
     cursor.execute("SELECT * FROM clientes")
     print(cursor.fetchall())
-    
+
+
+def listar_clientes():
+    listagem.show()
+
+
 
 app=QtWidgets.QApplication([])
 cadastros=uic.loadUi("Cadastro_Python/cadastro.ui")
+listagem=uic.loadUi("Cadastro_Python/listagem.ui")
 cadastros.pushButton.clicked.connect(cadastro_clientes)
+cadastros.but_listagem.clicked.connect(listar_clientes)
 
 cadastros.show()
 app.exec()
