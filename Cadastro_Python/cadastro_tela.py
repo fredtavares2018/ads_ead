@@ -39,7 +39,6 @@ def listar_clientes():
     listagem.show()
 
 
-
 app=QtWidgets.QApplication([])
 cadastros=uic.loadUi("Cadastro_Python/cadastro.ui")
 listagem=uic.loadUi("Cadastro_Python/listagem.ui")
