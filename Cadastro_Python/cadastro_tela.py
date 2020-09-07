@@ -28,6 +28,9 @@ def cadastro_clientes():
     dados = (str(cad1),str(cad3))
     cursor.execute(comando_SQL, dados)
     banco.commit()
+    # aqui limpamos os campos do cadastro
+    cadastros.lineEdit.setText("")
+    cadastros.lineEdit_3.setText("")
 
     cursor.execute("SELECT * FROM clientes")
     print(cursor.fetchall())
