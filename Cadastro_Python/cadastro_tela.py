@@ -23,6 +23,7 @@ def cadastro_clientes():
 
     # se for usar mysql, trocar ? por %
     cursor = banco.cursor()
+    #cursor.execute("CREATE TABLE clientes (nome text, telefone integer)")
     comando_SQL = "INSERT INTO clientes VALUES (?,?)"
     dados = (str(cad1),str(cad3))
     cursor.execute(comando_SQL, dados)
@@ -52,8 +53,8 @@ def listar_clientes():
 
 
 app=QtWidgets.QApplication([])
-cadastros=uic.loadUi("Cadastro_Python/cadastro.ui")
-listagem=uic.loadUi("Cadastro_Python/listagem.ui")
+cadastros=uic.loadUi("cadastro.ui")
+listagem=uic.loadUi("listagem.ui")
 cadastros.pushButton.clicked.connect(cadastro_clientes)
 cadastros.but_listagem.clicked.connect(listar_clientes)
 
