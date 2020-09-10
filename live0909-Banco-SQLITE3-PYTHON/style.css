@@ -1,0 +1,17 @@
+ /* pagina de abertura */
+ 
+ .teste1 {
+     background-color: blue;
+     width: 50%;
+     color: #fff;
+     float: left;
+     text-align: center;
+ }
+ 
+ .teste2 {
+     background-color: #ff0000;
+     width: 50%;
+     color: #fff;
+     float: left;
+ }
+ /* outra pagina */

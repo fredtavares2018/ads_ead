@@ -23,7 +23,7 @@ def cadastro_clientes():
 
     # se for usar mysql, trocar ? por %
     cursor = banco.cursor()
-    #cursor.execute("CREATE TABLE clientes (nome text, telefone integer)")
+    cursor.execute("CREATE TABLE IF NOT EXISTS clientes (nome text, telefone integer)")
     comando_SQL = "INSERT INTO clientes VALUES (?,?)"
     dados = (str(cad1),str(cad3))
     cursor.execute(comando_SQL, dados)
