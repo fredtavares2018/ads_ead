@@ -1,0 +1,35 @@
+Extensões para o vscode
+
+1. Auto Import
+2. Beautify 
+3. Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets for Visual studio code
+4. Bracket Pair Colorizer 2
+5. Code Runner
+6. VS Code ESLint extension
+7. Format HTML in PHP
+8. Guides
+9. HTML CSS Support 
+10. IntelliSense for CSS class names in HTML
+11. VS Code JS, CSS, HTML Formatting
+12. PHP code intelligence 
+13. PHP IntelliSense
+14. PHP intellisense for codeigniter
+15. Prettier Formatter for Visual Studio Code
+16. PYQT Integration
+17. Static type checker for Python
+18. Python extension for Visual Studio Code
+19. VSCode Python Docstring Generator
+20. Python Indent
+21. Python Preview
+22. Python Snippets
+23. Rainbow Brackets
+24. SQL Server
+25. vscode-sqlite
+26. UMLet 
+27. vscode-icons
+
+
+
+
+
+
