@@ -1,0 +1,27 @@
+Instalar interface gráfica para Python
+
+Supondo que vc já tem o python instalado com pip:
+
+## Pelo terminal - cmd ou pronpt de comando ##
+
+1º = pip install PyQt5  pacote do programa
+
+2º = pip install PyQt5-tools  pacote de ferramentas
+
+3 = pip install mysql-connector-python
+
+4 =  pyinstaller --windowed "arquivo python"
+
+Obs: 4 para funcionar copiar e colar o arquivo .ui na mesma pasta do .exe
+
+
+Sugestão: 
+
+após instalar esse do tools, é confortável colocar um link para abrir direto o editor.
+
+Procure por esse endereço no seu computador
+
+C:\Users\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\pyqt5_tools\Qt\bin
+
+e faça uma atalho do -> designer.exe <- para sua área de trabalho
+ 
