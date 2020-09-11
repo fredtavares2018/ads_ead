@@ -2,7 +2,10 @@ from PyQt5 import QtWidgets, uic
 
 def gravar():
     pegarNome = cadastro.lineEdit.text()
-    print('Você digitou', pegarNome)
+    #print('Você digitou', pegarNome)
+    
+    #abaixo você adiciona os nomes no ListWidget
+    cadastro.lista.addItem(pegarNome)
 
 
 app = QtWidgets.QApplication([])
