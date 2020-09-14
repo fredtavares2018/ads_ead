@@ -43,6 +43,8 @@ def listar_clientes():
     cursor.execute("SELECT * FROM clientes")
     receber_dados = cursor.fetchall()
     # print(receber_dados)
+    # for cad_dados in receber_dados:
+    #     print(cad_dados)
 
     listagem.tela_mostragem.setRowCount(len(receber_dados))
     listagem.tela_mostragem.setColumnCount(2)

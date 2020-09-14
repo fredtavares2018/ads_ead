@@ -10,7 +10,9 @@ Supondo que vc já tem o python instalado com pip:
 
 3 = pip install mysql-connector-python
 
-4 =  pyinstaller --windowed "arquivo python"
+4 = pip install pyinstaller
+
+5 =  pyinstaller --windowed "arquivo python"
 
 Obs: 4 para funcionar copiar e colar o arquivo .ui na mesma pasta do .exe
 
