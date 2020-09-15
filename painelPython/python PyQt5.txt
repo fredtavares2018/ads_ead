@@ -4,9 +4,9 @@ Supondo que vc já tem o python instalado com pip:
 
 ## Pelo terminal - cmd ou pronpt de comando ##
 
-1º = pip install PyQt5  pacote do programa
+1º pip install PyQt5  pacote do programa
 
-2º = pip install PyQt5-tools  pacote de ferramentas
+2º pip install PyQt5-tools  pacote de ferramentas
 
 3º BAIXAR  Qt Designer
 
@@ -17,6 +17,10 @@ https://build-system.fman.io/qt-designer-download
 
 1º  pip install pyinstaller
 2º  pyinstaller --windowed "arquivo python"
+
+Só rodar a opção 2 quando terminar tudo
+
+O arquivo executável estará dentro da pasta dentro do DIST
 
 Obs: Para funcionar copiar e colar o arquivo .ui na mesma pasta do .exe
 
