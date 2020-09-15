@@ -8,20 +8,20 @@ Supondo que vc já tem o python instalado com pip:
 
 2º = pip install PyQt5-tools  pacote de ferramentas
 
-3 = pip install mysql-connector-python
+3º BAIXAR  Qt Designer
 
-4 =  pyinstaller --windowed "arquivo python"
-
-Obs: 4 para funcionar copiar e colar o arquivo .ui na mesma pasta do .exe
+https://build-system.fman.io/qt-designer-download
 
 
-Sugestão: 
+# Gerar executável #############################################
 
-após instalar esse do tools, é confortável colocar um link para abrir direto o editor.
+1º  pip install pyinstaller
+2º  pyinstaller --windowed "arquivo python"
 
-Procure por esse endereço no seu computador
+Obs: Para funcionar copiar e colar o arquivo .ui na mesma pasta do .exe
 
-C:\Users\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\pyqt5_tools\Qt\bin
+# Banco de Dados
 
-e faça uma atalho do -> designer.exe <- para sua área de trabalho
- 
+1º Para MYSQL ->  pip install mysql-connector-python
+2º Para SQLITE ->  pip install sqlite3
+
