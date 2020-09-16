@@ -40,7 +40,7 @@ https://sqlitebrowser.org/dl/
 
 -------------------------------------------------------------------------------------------------
 
-Para gerar um executável:
+Para gerar um executável, digite no terminal:
 
 1º pip install pyinstaller
 
