@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>500</width>
-    <height>500</height>
+    <width>251</width>
+    <height>210</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="botaoCadastrar">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>240</y>
+      <x>50</x>
+      <y>130</y>
       <width>61</width>
       <height>21</height>
      </rect>
@@ -35,46 +35,18 @@
    <widget class="QLineEdit" name="digitar">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>190</y>
+      <x>50</x>
+      <y>40</y>
       <width>151</width>
       <height>21</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="titulo">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>161</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Listando Cadastro</string>
-    </property>
-   </widget>
-   <widget class="QListWidget" name="listaCadastro">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>30</y>
-      <width>341</width>
-      <height>131</height>
      </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>190</y>
+      <x>50</x>
+      <y>10</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -86,8 +58,8 @@
    <widget class="QLineEdit" name="telefone">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>230</y>
+      <x>50</x>
+      <y>90</y>
       <width>151</width>
       <height>20</height>
      </rect>
@@ -96,8 +68,8 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>230</y>
+      <x>50</x>
+      <y>70</y>
       <width>81</width>
       <height>16</height>
      </rect>
@@ -106,13 +78,26 @@
      <string>Telefone</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="verCadastros">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>130</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ver cadastros</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>371</width>
+     <width>251</width>
      <height>18</height>
     </rect>
    </property>
